@@ -5,12 +5,25 @@
 <p align=center><b> On cloning the repository, please use</b></p>
 <div align=center>
 
-`pip install -r requirements.txt` <br>or
-`pip3 install -r requirements.txt`
+`pip install -r requirements.txt` or `pip3 install -r requirements.txt`
+
+</div>
 
 ---
 
-</div>
+### The Homework meets the following goals:
+
+<ol>
+<li>Add, Subtract, Multiply, and Divide</li>
+<li>Throw exception for divide by zero and test that the exception is thrown.</li>
+<li>Use at least one class, at least one static method, at least one class method.</li>
+<li>It needs to store a history of calculations, so that you can retrieve the last calculation, add a calculation.</li>
+<li>It needs to have 100% test coverage, pass pylint, and you need to do your best to not repeat any lines of code.</li>
+<li>You should use type hints for input parameter types and return types.</li>
+<li>Implement a pytest fixture to the tests.</li>
+</ol>
+
+---
 
 ### Packages Used:
 
@@ -29,11 +42,12 @@
 <li><b>Subtraction:</b> Subtracts two numbers</li>
 <li><b>Multiplication:</b> Multiplies two numbers</li>
 <li><b>Division:</b> Divides two numbers and also catches the divide by zero exception</li>
+<li><b>History:</b> Stores and clears history of the calculator
 </ol>
 
 ---
 
-<b>Note:</b> Test Cases are covered for all the above Calculator Functions using pytest. Use the following commands to execute the tests.
+<b>Note:</b> Test Cases have 100% coverage for all the above Calculator Functions using pytest. Use the following commands to execute the tests.
 
 `pytest`
 `pytest --pylint`
